@@ -1,5 +1,8 @@
 # JerrysQuickMart
 ## Technical Exercise Walkthrough
+![JavaScript](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
+![HTML5](https://shields.io/badge/HTML5-E34F26?logo=HTML5&logoColor=fff&style=flat-square)
+![CSS3](https://shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=fff&style=flat-square)
 Dylan Hernández P.
 September 6th, 2025
 ## How to run?
