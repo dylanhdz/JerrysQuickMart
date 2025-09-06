@@ -22,7 +22,7 @@ On the other hand, non-functional requirements include interoperability. Juan Jo
 According to the non-functional requirements of interoperability, JavaScript is the chosen language for logic, using basic HTML/CSS for the design.
 ## Analysis and Design
 After a thorough examination, this is the UML Class Diagram to represent the application interaction:
-<img src="assets/UMLClassDiagram.png" alt="UML Class Diagram" width="600"/>
+<img src="assets/class_diagram.png" alt="UML Class Diagram" width="600"/>
 
 At first glance, Item and Cart Item share properties so they should both inherit from an abstract Item class. However, for practical purposes and according to the unique responsibility principle, they are related through a directed relationship where a Cart Item references an Inventory Item using the product name as the key.
 Architecture:
