@@ -6,9 +6,12 @@ September 6th, 2025
 1. Download or clone this repository.
 2. Using a local server (e.g., Live Server extension in VSCode), open `index.html` in your favorite browser.
 > Important: Do not open the file directly in the browser, as it will not be able to read the inventory file due to CORS policy.
->> Another option is to use Python's built-in HTTP server. Navigate to the project directory in your terminal and run:
- ```python -m http.server
+Another option is to use Python's built-in HTTP server. Navigate to the project directory in your terminal and run:
+
  ```
+ python -m http.server
+ ```
+ 
 Then, open your browser and go to `http://localhost:8000`.
 ## Requirements Engineering
 ### Functional:
