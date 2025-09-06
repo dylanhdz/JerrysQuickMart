@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry's Quick Mart</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jerry's Quick Mart</h1>
+        <div class="customer-type">
+            <h3>Choose the customer type:</h3>
+            <label><input type="radio" name="customerType" value="regular" checked> Regular</label>
+            <label><input type="radio" name="customerType" value="member"> Rewards Member</label>
+        </div>
+        <div class="inventory-section">
+            <h2>Inventory</h2>
+            <ul id="inventoryList"></ul>
+            <div>
+                <h3 for="uploadInventory" >Upload inventory (.txt):</h3>
+                <input type="file" id="uploadInventory" accept=".txt">
+            </div>
+        </div>
+        <div class="cart-section">
+            <h2>Cart</h2>
+            <ul id="cartList"></ul>
+            <div id="cartTotals"></div>
+            <div id="cartItemCount" style="margin-bottom:8px;font-size:0.98em;color:#888;"></div>
+            <button id="emptyCartBtn">Empty Cart</button>
+        </div>
+        <div class="actions">
+            <button id="checkoutBtn">Checkout</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+        <div id="receiptSection"></div>
+    </div>
+    <script src="assets/app.js"></script>
+</body>
+</html>
