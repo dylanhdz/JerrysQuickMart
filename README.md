@@ -4,11 +4,11 @@
 ![HTML5](https://shields.io/badge/HTML5-E34F26?logo=HTML5&logoColor=fff&style=flat-square)
 ![CSS3](https://shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=fff&style=flat-square)
 
-Dylan Hernández P.
-September 6th, 2025
+*Dylan Hernández P. - September 6th, 2025*
+
 ## How to run?
 1. Download or clone this repository.
-2. Using a local server (e.g., Live Server extension in VSCode), open `index.html` in your favorite browser.
+2. Using a local server (e.g., Live Server extension in VSCode), open `index.html` in your favorite browser. Then, click on the right-down corner in "Go Live".
 > Important: Do not open the file directly in the browser, as it will not be able to read the inventory file due to CORS policy.
 Another option is to use Python's built-in HTTP server. Navigate to the project directory in your terminal and run:
 
@@ -16,7 +16,7 @@ Another option is to use Python's built-in HTTP server. Navigate to the project 
  python -m http.server
  ```
  
-Then, open your browser and go to `http://localhost:8000`.
+Then, open your browser and go to `http://localhost:{port-number}`. 8800 in case of Python. In case of Live Server from VSCode, it will open authomatically.
 ## Requirements Engineering
 ### Functional:
 The functional requirements detail the need for processing cash transactions, keeping stock control, handling cart items and generating receipts.
