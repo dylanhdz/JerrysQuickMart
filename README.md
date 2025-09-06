@@ -33,5 +33,3 @@ Architecture:
 
 This is a serverless architecture, where all the logic happens in the browser. This is scalable for a client/server architecture once we have a real backend.
 
-For the logic, we create classes for each representation on the diagram. We need a method for getting the price according to the customer’s needs and another to return the tax status. The question mark indicates a short if/then syntax. 
-
